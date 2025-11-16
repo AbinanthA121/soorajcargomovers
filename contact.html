@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Sooraj Cargo Movers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <a href="index.html">Sooraj Cargo Movers</a>
+                </div>
+                <nav class="nav" id="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html" class="active">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch with us for inquiries or quotes</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Forms -->
+                <div class="contact-forms">
+                    <!-- Contact Form -->
+                    <div class="form-container">
+                        <h2>Send Us a Message</h2>
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="contactName">Name *</label>
+                                <input type="text" id="contactName" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactEmail">Email *</label>
+                                <input type="email" id="contactEmail" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactPhone">Phone</label>
+                                <input type="tel" id="contactPhone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="contactSubject">Subject *</label>
+                                <input type="text" id="contactSubject" name="subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactMessage">Message *</label>
+                                <textarea id="contactMessage" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+
+                    <!-- Quote Request Form -->
+                    <div class="form-container">
+                        <h2>Request a Quote</h2>
+                        <form id="quoteForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="quoteName">Name *</label>
+                                <input type="text" id="quoteName" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="quoteEmail">Email *</label>
+                                <input type="email" id="quoteEmail" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="quotePhone">Phone *</label>
+                                <input type="tel" id="quotePhone" name="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="quoteService">Service Type *</label>
+                                <select id="quoteService" name="service" required>
+                                    <option value="">Select a service</option>
+                                    <option value="freight">Freight Transportation</option>
+                                    <option value="package">Package Delivery</option>
+                                    <option value="industrial">Industrial Logistics</option>
+                                    <option value="long-distance">Long Distance Transportation</option>
+                                    <option value="heavy-equipment">Heavy Equipment Transport</option>
+                                    <option value="custom">Custom Solutions</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="quoteOrigin">Origin *</label>
+                                <input type="text" id="quoteOrigin" name="origin" placeholder="City, State" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="quoteDestination">Destination *</label>
+                                <input type="text" id="quoteDestination" name="destination" placeholder="City, State" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="quoteWeight">Approximate Weight (kg)</label>
+                                <input type="number" id="quoteWeight" name="weight" min="0">
+                            </div>
+                            <div class="form-group">
+                                <label for="quoteDate">Preferred Date</label>
+                                <input type="date" id="quoteDate" name="date">
+                            </div>
+                            <div class="form-group">
+                                <label for="quoteDetails">Additional Details</label>
+                                <textarea id="quoteDetails" name="details" rows="4" placeholder="Any special requirements or additional information"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Request Quote</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <div class="info-item">
+                        <h3>Email</h3>
+                        <p>soorajcargomovers@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Phone</h3>
+                        <p>+91 9387528060</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Business Hours</h3>
+                        <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 9:00 AM - 2:00 PM<br>Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sooraj Cargo Movers</h3>
+                    <p>Your trusted partner in transportation and logistics.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>Email: soorajcargomovers@gmail.com</li>
+                        <li>Phone: +91 9387528060</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sooraj Cargo Movers. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
